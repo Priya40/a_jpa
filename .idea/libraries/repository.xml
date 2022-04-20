@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="repository">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0.1/javaee-api-8.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.2.RELEASE/spring-data-jpa-2.1.2.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/h2database/h2/2.1.210/h2-2.1.210.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$" recursive="false" />
+  </library>
+</component>
