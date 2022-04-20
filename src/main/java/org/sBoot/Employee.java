@@ -1,10 +1,10 @@
-package org.example;
+package org.sBoot;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.validation.constraints.NotNull;
+//import javax.validation.constraints.NotNull;
 
 @Entity
 public class Employee {
@@ -20,7 +20,7 @@ public class Employee {
     private Integer age;
 
 
-    @NotNull
+    //@NotNull
     private Long sal;
 
     public Long getId() {        return id;    }
@@ -55,10 +55,9 @@ public class Employee {
         return "Employee{" +
                 "id=" + id +
                 "last Name=" + lastName +
-                ", name= '" + name + '\'' + age +
+                "Age=" + age +
+                ", name= '" + name + '\'' +
                 '}';
     }
-
-
 
 }

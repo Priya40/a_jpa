@@ -1,4 +1,4 @@
-package org.example;
+package org.sBoot;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -13,7 +13,9 @@ public class SpringDataJpaApplication {
     //EntityManagerFactory
     public static void main(String[] args) {
         name = args[0];
-        SpringApplication.run(SpringDataJpaApplication.class, args);
+            System.out.println("Hello "+ name);
+            SpringApplication.run(SpringDataJpaApplication.class, args);
+            System.out.println("To you");
     }
 
     @Bean
@@ -26,6 +28,6 @@ public class SpringDataJpaApplication {
     }
 
     private void insert(EmployeeRepository repository){
-        repository.save(new Employee(name, 42, "Agarwal", 5000L));
+        repository.save(new Employee(name, 42, "Agarwal", 15000L));
     }
 }
