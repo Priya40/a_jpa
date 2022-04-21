@@ -46,14 +46,14 @@
     <connection id="335c28ca-2972-4b93-9d66-03933af0b99c" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="5b0dd707-1c95-4080-a0a3-d287e3f96688" dataset="PUBLIC.EMPLOYEE" active-filter-id="36b65b31-d6d8-4c7c-84ac-d452b516d3bd">
-      <filter id="36b65b31-d6d8-4c7c-84ac-d452b516d3bd" name="Sachin" temporary="false" custom-name="false" type="basic" join-type="AND">
-        <condition column="NAME" operator="=" value="Sachin" active="true" />
-      </filter>
-    </filter-actions>
     <filter-actions connection-id="335c28ca-2972-4b93-9d66-03933af0b99c" dataset="PUBLIC.EMPLOYEE" active-filter-id="1dddc129-0f51-4090-bf69-cff2c52867c6">
       <filter id="1dddc129-0f51-4090-bf69-cff2c52867c6" name="k" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="NAME" operator="!=" value="k" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="5b0dd707-1c95-4080-a0a3-d287e3f96688" dataset="PUBLIC.EMPLOYEE" active-filter-id="36b65b31-d6d8-4c7c-84ac-d452b516d3bd">
+      <filter id="36b65b31-d6d8-4c7c-84ac-d452b516d3bd" name="Sachin" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="NAME" operator="=" value="Sachin" active="true" />
       </filter>
     </filter-actions>
     <filter-actions connection-id="ae71abf1-7324-433b-9538-f7c3c1cd2246" dataset="PUBLIC.EMPLOYEE" active-filter-id="e51a3fcc-7e4b-4b3d-881e-d7bd7350a249">
